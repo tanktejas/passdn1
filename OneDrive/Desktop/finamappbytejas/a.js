@@ -2,7 +2,7 @@ const { closeDelimiter } = require('ejs');
 const express = require('express');
 const exp = express();
 const path = require('path');
-require('./db/models');    
+require('./db/models');     
 const collection=require('./db/models');
 // console.log(__dirname); 
 const path1 = path.join(__dirname, 'views/a.html');
@@ -21,7 +21,7 @@ exp.use(express.static(path2));
 //ragistration form req. handle  
  
 exp.post("/ragister",async(req,res)=>{
-    // try{   
+    // try{         
          
     // // const data= await collection.find({email:req.email});
     // const data=req.body;
