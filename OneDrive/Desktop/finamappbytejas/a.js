@@ -12,9 +12,9 @@ exp.set('view engine', 'ejs');
 // // exp.set('views', path.join(__dirname, 'views'));  
 // var bodyParser = require('body-parser');  
 // const { basicURLParse } = require('whatwg-url');
-const port = process.env.PORT || 3000;   
-// exp.use(express.urlencoded({ extended: false }));
-const path2 = path.join(__dirname, './views');
+const port = process.env.PORT || 3000;    
+// exp.use(express.urlencoded({ extended: false }));             
+const path2 = path.join(__dirname, './views');              
                             
 // exp.use(express.static(path2));
                 
